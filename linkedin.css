@@ -1,0 +1,358 @@
+body
+{
+    margin: 0;
+}
+.main
+{
+    background-color: rgb(215, 222, 228);
+    width: 100%;
+    height: 38cm;
+}
+.header
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 52px;
+    position: fixed;
+}
+.lefthead
+{
+    display: inline;
+}
+.linkedinicon
+{
+    width: 39px;
+    margin-left: 204px;
+    margin-top: 8px;
+    display: lef;
+    float: left;
+}
+.searchicon
+{
+    float: left;
+    width: 25px;
+    margin-top: 12px;
+    margin-left: px;
+    margin-left: 8px;
+    z-index: 9;
+    position: absolute;
+}
+.search-input
+{
+    margin-left: 3px;
+    margin-top: 7px;
+    width: 273px;
+    height: 33px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e7f0f8;
+    position: absolute;
+    padding-left: 35px;
+    display: inline;
+    float: left;
+}
+.righthead
+{
+    margin-left: 28em;
+    display: inline;
+}
+.homeicon
+{
+    width: 29px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    
+}
+.tophome
+{
+    margin-left: -35px;
+    margin-top: 33px;
+    position: absolute;
+}
+.networkicon
+{
+    width: 34px;
+    margin-top: 6px;
+    margin-bottom: px;
+    margin-left: 60px;
+}
+.topnetwork
+{
+    margin-left: -46px;
+    margin-top: 33px;
+    position: absolute;
+}
+.jobicon
+{
+    width: 28px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 60px;
+}
+.topjob
+{
+    margin-left: -26px;
+    margin-top: 33px;
+    position: absolute;
+    
+}
+.messageicon
+{
+    width: 30px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 60px;
+}
+.topmessage
+{
+    margin-left: -42px;
+    margin-top: 33px;
+    position: absolute;
+}
+.bellicon
+{
+    width: 29px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 60px;
+}
+.topbell
+{
+    margin-left: -52px;
+    margin-top: 33px;
+    position: absolute;
+}
+.profileicon
+{
+    width: 27px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.topprofile
+{
+    margin-left: -26px;
+    margin-top: 33px;
+    position: absolute;
+}
+.squaremenu
+{
+    width: 25px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 40px;
+}
+.toptext
+{
+    margin-left: 10px;
+}
+
+.container
+{
+    padding-left: 190px;
+    padding-top:100px;
+    display: flex;
+    flex-direction: row;
+}
+.leftbar
+{
+    border-radius: 10px;
+    width: 20%;
+    height: 24em;
+    background-color: rgb(255, 255, 255);
+
+}
+.bg-image
+{
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 66.5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.bg-profile
+{
+    margin-top: -42px;
+    margin-left: 83px;
+    border-radius: 50%;
+    width: 83px;
+    border: 3px solid white;
+}
+.profile-name
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-left: 81px;
+    margin-top: 0px;
+}
+.profile-details
+{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 13px;
+    text-align: center;
+}
+.middlebar
+{
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 45%;
+    height: 35cm;
+    background-color: rgb(215, 222, 228);
+}
+.inner-middlebar1
+{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 113px;
+    border-radius: 10px;
+}
+.innermid-profile
+{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.innermid-input
+{
+    margin-left: 10px;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0.945);
+    width: 480px;
+    height: 35px;
+    border-radius: 50px;
+    border: solid 1px rgba(0, 0, 0, 0.219);
+    float: left;
+    transition: color ;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.innermid-input:hover
+{
+    background-color:rgba(0, 0, 0, 0.082);
+
+}
+.photo
+{
+    float: left;
+    width: 30px;
+    margin-top: 10px;
+}
+.video
+{
+    float: left;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.event
+{
+    float: left;
+    width: 27px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.article
+{
+    float: left;
+    width: 24px;
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+.inner-middlebar2
+{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 570px;
+    border-radius: 10px;
+}
+.mid-tile
+{
+    margin-top: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 8px;
+    float: left;
+    margin-right: 400px;
+    margin-bottom: 0px;
+}
+.mid-followers
+{
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 12px;
+    float: left;
+    margin-right: 426px;
+}
+.discrip
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+.post
+{
+    width: 100%;
+}
+.like
+{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 27px;
+}
+.comment
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 30px;
+}
+.share
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 30px;
+}
+.send
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 30px;
+}
+.bookmark
+{
+    width: 25px;
+    margin-left: 10px;
+    float: left;
+}
+.rightbar
+{
+    border-radius: 10px;
+    width: 20%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+}
+.linkedinnews
+{
+    font-weight: 600;
+}
+.showmore
+{
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.showmore:hover
+{
+    background: rgba(7, 7, 7, 0.089);
+}
